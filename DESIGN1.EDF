@@ -1,0 +1,928 @@
+(EDIF DESIGN1(EDIFVersion 2 0 0)(EDIFLevel 0)(keywordMap(keywordLevel 0))(status
+(written(timeStamp 2013 12 3 2 7 53)(dataOrigin "OrCAD Capture on WIN32 EDX ID 0
+")(program "cap2edi - Engineering DataXpress, Inc."(version "2.2 - OrCAD Capture
+ Version 9.00"))))(library(rename CAPSYM "CAPSYM")(EDIFLevel 0)(technology(
+numberDefinition(scale 1(e 254 -7)(unit DISTANCE)))(figureGroup BODY(pathWidth
+10)(textHeight 100))(figureGroup COMMENT(pathWidth 10)(textHeight 90)(property(
+rename FONT "font")(string "Courier New")))(userData GRIDRESOLUTION(integer 100
+100)))(cell(rename PORTRIGHT_45_R "PORTRIGHT-R")(cellType GENERIC)(view(rename
+&1 "1")(viewType GRAPHIC)(interface(property(rename EDIFHOTSPOT "EDIFhotspot")(
+string "(pt 300 -100)"))(property(rename ORCADVIEWTYPE "OrCADviewType")(string "
+PORT_SYMBOL"))(property(rename NAME "Name")(string "PORTRIGHT-R")))(contents(
+commentGraphics)(figure BODY(path(pointList(pt 0 -50)(pt 200 -50)))(path(
+pointList(pt 200 -50)(pt 300 -100)))(path(pointList(pt 300 -100)(pt 200 -150)))(
+path(pointList(pt 200 -150)(pt 0 -150)))(path(pointList(pt 0 -150)(pt 0 -50)))))
+))(cell(rename TITLEBLOCK0 "TitleBlock0")(cellType GENERIC)(view(rename &1 "1")(
+viewType GRAPHIC)(interface(property(rename PAGE_32_COUNT "Page Count")(string "
+1"))(property(rename PAGE_32_NUMBER "Page Number")(string "1"))(property(rename
+PAGE_32_SIZE "Page Size")(string "A"))(property(rename TITLE "Title")(string "")
+)(property(rename REVCODE "RevCode")(string "?"))(property(rename DOC "Doc")(
+string ""))(property(rename PAGE_32_CREATE_32_DATE "Page Create Date")(string " 
+   March  8, 1995"))(property(rename ORCADVIEWTYPE "OrCADviewType")(string "Titl
+eblock_Symbol"))(property(rename NAME "Name")(string "TitleBlock0")))(contents(
+commentGraphics(annotate(stringDisplay "Title"(display COMMENT(justify UPPERLEFT
+)(origin(pt 0 -200)))))(annotate(stringDisplay "Size"(display COMMENT(justify
+UPPERLEFT)(origin(pt 0 -500)))))(annotate(stringDisplay "Document Number"(
+display COMMENT(justify UPPERLEFT)(origin(pt 400 -500)))))(annotate(
+stringDisplay "Rev"(display COMMENT(justify UPPERLEFT)(origin(pt 3300 -500)))))(
+annotate(stringDisplay "Date:"(display COMMENT(justify UPPERLEFT)(origin(pt 0
+-800)))))(annotate(stringDisplay "Sheet"(display COMMENT(justify UPPERLEFT)(
+origin(pt 2000 -800)))))(annotate(stringDisplay "of"(display COMMENT(justify
+UPPERLEFT)(origin(pt 2800 -800))))))(figure BODY(rectangle(pt 0 0)(pt 3600 -200)
+)(rectangle(pt 0 -200)(pt 3600 -500))(rectangle(pt 0 -500)(pt 300 -800))(
+rectangle(pt 300 -500)(pt 3300 -800))(rectangle(pt 3300 -500)(pt 3600 -800))(
+rectangle(pt 0 -800)(pt 2000 -900))(rectangle(pt 2000 -800)(pt 3600 -900)))))))(
+library(rename RIPPER_LIBRARY "RIPPER_LIBRARY")(EDIFLevel 0)(technology(
+numberDefinition(scale 1(e 254 -7)(unit DISTANCE)))(figureGroup PORT)(
+figureGroup WIRE(pathWidth 10)(textHeight 100))(userData GRIDRESOLUTION(integer
+100 100)))(cell(rename XTIE0A2Y2 "XTIE0A2Y2")(cellType TIE)(view(rename
+XTIE0A2Y2 "XTIE0A2Y2")(viewType SCHEMATIC)(interface(port(rename &1 "1"))(symbol
+(portImplementation &1(connectLocation(figure PORT(dot(pt 0 0)))))(figure WIRE(
+circle(pt -20 0)(pt 20 0))))))))(library(rename DESIGN1 "DESIGN1")(EDIFLevel 0)(
+technology(numberDefinition(scale 1(e 254 -7)(unit DISTANCE)))(figureGroup ALIAS
+(pathWidth 10)(textHeight 90)(property(rename FONT "font")(string "Arial")))(
+figureGroup BODY(pathWidth 10)(textHeight 100))(figureGroup PARTVALUE(pathWidth
+10)(textHeight 90)(property(rename FONT "font")(string "Arial")))(figureGroup
+PINNAME(pathWidth 10)(textHeight 90)(property(rename FONT "font")(string "Arial"
+)))(figureGroup PINNUMBER(pathWidth 10)(textHeight 90)(property(rename FONT "fon
+t")(string "Arial")))(figureGroup PORT(pathWidth 10)(textHeight 90)(property(
+rename FONT "font")(string "Arial")))(figureGroup PROPERTY(pathWidth 10)(
+textHeight 90)(property(rename FONT "font")(string "Arial")))(figureGroup
+TITLEBLOCK(pathWidth 10)(textHeight 90)(property(rename FONT "font")(string "Ari
+al")))(figureGroup WIRE(pathWidth 10)(textHeight 100))(userData GRIDRESOLUTION(
+integer 100 100)))(cell(rename U1_1 "U1_1")(cellType GENERIC)(view(rename &1 "1"
+)(viewType SCHEMATIC)(interface(designator "")(port(array(rename
+PROGRAM__BUS_91_13_46__46_0_93_ "program_bus[13..0]")14)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "0"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename DIRECT__ADDR_91_6_46__46_0_93_ "direct_addr[6..0]")7)(direction
+OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(
+property(rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(
+string "1"))(property(rename LONG "Long")(string "True"))(property(rename CLOCK
+"Clock")(string "False"))(property(rename DOT "Dot")(string "False"))(property(
+rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+port(array(rename DECO__BUS_91_6_46__46_0_93_ "deco_bus[6..0]")7)(direction
+OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(
+property(rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(
+string "2"))(property(rename LONG "Long")(string "True"))(property(rename CLOCK
+"Clock")(string "False"))(property(rename DOT "Dot")(string "False"))(property(
+rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+port(array(rename BIT__OPERA_91_2_46__46_0_93_ "bit_opera[2..0]")3)(direction
+OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(
+property(rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(
+string "3"))(property(rename LONG "Long")(string "True"))(property(rename CLOCK
+"Clock")(string "False"))(property(rename DOT "Dot")(string "False"))(property(
+rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+port(array(rename CONS_91_7_46__46_0_93_ "cons[7..0]")8)(direction OUTPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(string "4")
+)(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+property(rename NAME "Name")(string ""))(property(rename VALUE "Value")(string "
+"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(
+property(rename IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1300 -1100)))(
+portImplementation(name PROGRAM__BUS_91_13_46__46_0_93_(display PINNAME(justify
+CENTERLEFT)(origin(pt 70 -700))))(connectLocation(figure PORT(dot(pt 0 -700))))(
+figure BODY(path(pointList(pt 0 -700)(pt 0 -700))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -690)))))(portImplementation
+(name DIRECT__ADDR_91_6_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(origin
+(pt 1230 -100))))(connectLocation(figure PORT(dot(pt 1300 -100))))(figure BODY(
+path(pointList(pt 1300 -100)(pt 1300 -100))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(origin(pt 1370 -90)))))(portImplementation(name
+DECO__BUS_91_6_46__46_0_93_(display PINNAME(justify CENTERLEFT)(orientation R90)
+(origin(pt 500 -1030))))(connectLocation(figure PORT(dot(pt 500 -1100))))(figure
+BODY(path(pointList(pt 500 -1100)(pt 500 -1100))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify UPPERRIGHT)(orientation R90)(origin(pt 510 -1170)))))(
+portImplementation(name BIT__OPERA_91_2_46__46_0_93_(display PINNAME(justify
+CENTERRIGHT)(origin(pt 1230 -300))))(connectLocation(figure PORT(dot(pt 1300
+-300))))(figure BODY(path(pointList(pt 1300 -300)(pt 1300 -300))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(origin(pt 1370 -290)))))(
+portImplementation(name CONS_91_7_46__46_0_93_(display PINNAME(justify
+CENTERLEFT)(orientation R90)(origin(pt 1000 -1030))))(connectLocation(figure
+PORT(dot(pt 1000 -1100))))(figure BODY(path(pointList(pt 1000 -1100)(pt 1000
+-1100))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERRIGHT)(
+orientation R90)(origin(pt 1010 -1170)))))(figure BODY(rectangle(pt 0 0)(pt 1300
+-1100)))))))(cell(rename U7_7 "U7_7")(cellType GENERIC)(view(rename &1 "1")(
+viewType SCHEMATIC)(interface(designator "")(port(rename RESET "reset")(
+direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(
+string ""))(property(rename TYPE "Type")(string "Input"))(property(rename ORDER
+"Order")(string "0"))(property(rename LONG "Long")(string "True"))(property(
+rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(string "False"
+))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(
+string "True")))(port(rename CLKB "clkb")(direction INPUT)(designator "")(
+property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Ty
+pe")(string "Input"))(property(rename ORDER "Order")(string "1"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename CLKD "clkd")(direction INPUT)(designator "")(property(rename
+PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Type")(string "Inp
+ut"))(property(rename ORDER "Order")(string "2"))(property(rename LONG "Long")(
+string "True"))(property(rename CLOCK "Clock")(string "False"))(property(rename
+DOT "Dot")(string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin 
+Number Is Visible")(string "True")))(port(array(rename DIRADD_91_6_46__46_0_93_
+"diradd[6..0]")7)(direction INPUT)(designator "")(property(rename PIN_32_SHARED
+"Pin shared")(string ""))(property(rename TYPE "Type")(string "Input"))(property
+(rename ORDER "Order")(string "3"))(property(rename LONG "Long")(string "True"))
+(property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename INDADD_91_7_46__46_0_93_ "indadd[7..
+0]")8)(direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared
+")(string ""))(property(rename TYPE "Type")(string "Input"))(property(rename
+ORDER "Order")(string "4"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename BUSD_91_7_46__46_0_93_ "busd[7..0]")
+8)(direction INOUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(
+string ""))(property(rename TYPE "Type")(string "Bidirectional"))(property(
+rename ORDER "Order")(string "5"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename STATIN_91_2_46__46_0_93_ "statin[2..
+0]")3)(direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared
+")(string ""))(property(rename TYPE "Type")(string "Input"))(property(rename
+ORDER "Order")(string "6"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename DIRECCION_91_8_46__46_0_93_ "direcci
+on[8..0]")9)(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin
+ shared")(string ""))(property(rename TYPE "Type")(string "Output"))(property(
+rename ORDER "Order")(string "7"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(rename E "e")(direction INPUT)(designator "")(
+property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Ty
+pe")(string "Input"))(property(rename ORDER "Order")(string "8"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename E_RAM "e_ram")(direction OUTPUT)(designator "")(property(rename
+PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Type")(string "Out
+put"))(property(rename ORDER "Order")(string "9"))(property(rename LONG "Long")(
+string "True"))(property(rename CLOCK "Clock")(string "False"))(property(rename
+DOT "Dot")(string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin 
+Number Is Visible")(string "True")))(port(array(rename
+ALTA__IMPEDANCIA_91_2_46__46_0_93_ "alta_impedancia[2..0]")3)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "10")
+)(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+property(rename NAME "Name")(string ""))(property(rename VALUE "Value")(string "
+"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(
+property(rename IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1600 -1000)))(
+portImplementation(name RESET(display PINNAME(justify CENTERLEFT)(origin(pt 70
+-700))))(connectLocation(figure PORT(dot(pt 0 -700))))(figure BODY(path(
+pointList(pt 0 -700)(pt 0 -700))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -690)))))(portImplementation(name CLKB(display
+PINNAME(justify CENTERLEFT)(origin(pt 70 -200))))(connectLocation(figure PORT(
+dot(pt 0 -200))))(figure BODY(path(pointList(pt 0 -200)(pt 0 -200))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify LOWERRIGHT)(origin(pt -70
+-190)))))(portImplementation(name CLKD(display PINNAME(justify CENTERLEFT)(
+origin(pt 70 -300))))(connectLocation(figure PORT(dot(pt 0 -300))))(figure BODY(
+path(pointList(pt 0 -300)(pt 0 -300))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -290)))))(portImplementation(name
+DIRADD_91_6_46__46_0_93_(display PINNAME(justify CENTERLEFT)(origin(pt 70 -100))
+))(connectLocation(figure PORT(dot(pt 0 -100))))(figure BODY(path(pointList(pt 0
+-100)(pt 0 -100))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify
+LOWERRIGHT)(origin(pt -70 -90)))))(portImplementation(name
+INDADD_91_7_46__46_0_93_(display PINNAME(justify CENTERLEFT)(origin(pt 70 -600))
+))(connectLocation(figure PORT(dot(pt 0 -600))))(figure BODY(path(pointList(pt 0
+-600)(pt 0 -600))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify
+LOWERRIGHT)(origin(pt -70 -590)))))(portImplementation(name
+BUSD_91_7_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(origin(pt 1530 -800)
+)))(connectLocation(figure PORT(dot(pt 1600 -800))))(figure BODY(path(pointList(
+pt 1600 -800)(pt 1600 -800))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+origin(pt 1670 -790)))))(portImplementation(name STATIN_91_2_46__46_0_93_(
+display PINNAME(justify CENTERRIGHT)(origin(pt 1530 -900))))(connectLocation(
+figure PORT(dot(pt 1600 -900))))(figure BODY(path(pointList(pt 1600 -900)(pt
+1600 -900))))(keywordDisplay DESIGNATOR(display PINNUMBER(origin(pt 1670 -890)))
+))(portImplementation(name DIRECCION_91_8_46__46_0_93_(display PINNAME(justify
+CENTERRIGHT)(orientation R90)(origin(pt 1000 -70))))(connectLocation(figure PORT
+(dot(pt 1000 0))))(figure BODY(path(pointList(pt 1000 0)(pt 1000 0))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(orientation R90)(
+origin(pt 1010 70)))))(portImplementation(name E(display PINNAME(justify
+CENTERLEFT)(origin(pt 70 -800))))(connectLocation(figure PORT(dot(pt 0 -800))))(
+figure BODY(path(pointList(pt 0 -800)(pt 0 -800))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -790)))))(portImplementation
+(name E_RAM(display PINNAME(justify CENTERRIGHT)(orientation R90)(origin(pt 800
+-70))))(connectLocation(figure PORT(dot(pt 800 0))))(figure BODY(path(pointList(
+pt 800 0)(pt 800 0))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify
+UPPERLEFT)(orientation R90)(origin(pt 810 70)))))(portImplementation(name
+ALTA__IMPEDANCIA_91_2_46__46_0_93_(display PINNAME(justify CENTERLEFT)(origin(pt
+70 -900))))(connectLocation(figure PORT(dot(pt 0 -900))))(figure BODY(path(
+pointList(pt 0 -900)(pt 0 -900))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -890)))))(figure BODY(rectangle(pt 0 0)(pt
+1600 -1000)))))))(cell(rename U3_3 "U3_3")(cellType GENERIC)(view(rename &1 "1")
+(viewType SCHEMATIC)(interface(designator "")(port(rename CLKC "clkc")(direction
+INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(
+property(rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(
+string "0"))(property(rename LONG "Long")(string "True"))(property(rename CLOCK
+"Clock")(string "False"))(property(rename DOT "Dot")(string "False"))(property(
+rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+port(array(rename INP_91_4_46__46_0_93_ "inp[4..0]")5)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "1"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename ENTRADA_91_7_46__46_0_93_ "entrada[7..0]")8)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "2"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename SALIDA_91_7_46__46_0_93_ "salida[7..0]")8)(direction OUTPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(string "3")
+)(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename BIT__OPERAR_91_2_46__46_0_93_ "bit_operar[2..0]")3)(direction INPUT
+)(designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(
+property(rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(
+string "4"))(property(rename LONG "Long")(string "True"))(property(rename CLOCK
+"Clock")(string "False"))(property(rename DOT "Dot")(string "False"))(property(
+rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+port(array(rename WREG_91_7_46__46_0_93_ "wreg[7..0]")8)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "5"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename ALTA__IMPEDANCIA_91_2_46__46_0_93_ "alta_impedancia[2..0]")3)(
+direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(
+string ""))(property(rename TYPE "Type")(string "Input"))(property(rename ORDER
+"Order")(string "6"))(property(rename LONG "Long")(string "True"))(property(
+rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(string "False"
+))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(
+string "True")))(port(array(rename STATUSA_91_2_46__46_0_93_ "statusa[2..0]")3)(
+direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(
+string ""))(property(rename TYPE "Type")(string "Output"))(property(rename ORDER
+"Order")(string "7"))(property(rename LONG "Long")(string "True"))(property(
+rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(string "False"
+))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(
+string "True")))(property(rename NAME "Name")(string ""))(property(rename VALUE
+"Value")(string ""))(property(rename IMPLEMENTATION_32_PATH "Implementation Path
+")(string ""))(property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(
+string "<none>"))(property(rename IMPLEMENTATION "Implementation")(string ""))(
+property(rename PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))
+(property(rename PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(
+property(rename PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(
+symbol(commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1400 -800)))(
+portImplementation(name CLKC(display PINNAME(justify CENTERLEFT)(orientation R90
+)(origin(pt 1300 -730))))(connectLocation(figure PORT(dot(pt 1300 -800))))(
+figure BODY(path(pointList(pt 1300 -800)(pt 1300 -800))))(keywordDisplay
+DESIGNATOR(display PINNUMBER(justify UPPERRIGHT)(orientation R90)(origin(pt 1310
+-870)))))(portImplementation(name INP_91_4_46__46_0_93_(display PINNAME(justify
+CENTERLEFT)(origin(pt 70 -400))))(connectLocation(figure PORT(dot(pt 0 -400))))(
+figure BODY(path(pointList(pt 0 -400)(pt 0 -400))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -390)))))(portImplementation
+(name ENTRADA_91_7_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(orientation
+R90)(origin(pt 900 -70))))(connectLocation(figure PORT(dot(pt 900 0))))(figure
+BODY(path(pointList(pt 900 0)(pt 900 0))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify UPPERLEFT)(orientation R90)(origin(pt 910 70)))))(
+portImplementation(name SALIDA_91_7_46__46_0_93_(display PINNAME(justify
+CENTERLEFT)(orientation R90)(origin(pt 1100 -730))))(connectLocation(figure PORT
+(dot(pt 1100 -800))))(figure BODY(path(pointList(pt 1100 -800)(pt 1100 -800))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERRIGHT)(orientation R90)
+(origin(pt 1110 -870)))))(portImplementation(name BIT__OPERAR_91_2_46__46_0_93_(
+display PINNAME(justify CENTERLEFT)(origin(pt 70 -200))))(connectLocation(figure
+PORT(dot(pt 0 -200))))(figure BODY(path(pointList(pt 0 -200)(pt 0 -200))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify LOWERRIGHT)(origin(pt -70
+-190)))))(portImplementation(name WREG_91_7_46__46_0_93_(display PINNAME(justify
+CENTERLEFT)(origin(pt 70 -600))))(connectLocation(figure PORT(dot(pt 0 -600))))(
+figure BODY(path(pointList(pt 0 -600)(pt 0 -600))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -590)))))(portImplementation
+(name ALTA__IMPEDANCIA_91_2_46__46_0_93_(display PINNAME(justify CENTERLEFT)(
+origin(pt 70 -300))))(connectLocation(figure PORT(dot(pt 0 -300))))(figure BODY(
+path(pointList(pt 0 -300)(pt 0 -300))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -290)))))(portImplementation(name
+STATUSA_91_2_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(orientation R90)(
+origin(pt 1000 -70))))(connectLocation(figure PORT(dot(pt 1000 0))))(figure BODY
+(path(pointList(pt 1000 0)(pt 1000 0))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify UPPERLEFT)(orientation R90)(origin(pt 1010 70)))))(figure BODY
+(rectangle(pt 0 0)(pt 1400 -800)))))))(cell(rename U8 "U8")(cellType GENERIC)(
+view(rename &1 "1")(viewType SCHEMATIC)(interface(designator "")(port(rename
+CLKA "clka")(direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin 
+shared")(string ""))(property(rename TYPE "Type")(string "Input"))(property(
+rename ORDER "Order")(string "0"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename ADDR_91_12_46__46_0_93_ "addr[12..0]
+")13)(direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared"
+)(string ""))(property(rename TYPE "Type")(string "Input"))(property(rename
+ORDER "Order")(string "1"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename SALIDA_91_13_46__46_0_93_ "salida[13
+..0]")14)(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin sh
+ared")(string ""))(property(rename TYPE "Type")(string "Output"))(property(
+rename ORDER "Order")(string "2"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(property(rename NAME "Name")(string ""))(property(
+rename VALUE "Value")(string ""))(property(rename IMPLEMENTATION_32_PATH "Implem
+entation Path")(string ""))(property(rename IMPLEMENTATION_32_TYPE "Implementati
+on Type")(string "<none>"))(property(rename IMPLEMENTATION "Implementation")(
+string ""))(property(rename PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(
+string "True"))(property(rename PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(
+string "True"))(property(rename PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(
+string "True"))(symbol(commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1000
+-1100)))(portImplementation(name CLKA(display PINNAME(justify CENTERLEFT)(origin
+(pt 70 -100))))(connectLocation(figure PORT(dot(pt 0 -100))))(figure BODY(path(
+pointList(pt 0 -100)(pt 0 -100))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -90)))))(portImplementation(name
+ADDR_91_12_46__46_0_93_(display PINNAME(justify CENTERLEFT)(origin(pt 70 -400)))
+)(connectLocation(figure PORT(dot(pt 0 -400))))(figure BODY(path(pointList(pt 0
+-400)(pt 0 -400))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify
+LOWERRIGHT)(origin(pt -70 -390)))))(portImplementation(name
+SALIDA_91_13_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(origin(pt 930
+-700))))(connectLocation(figure PORT(dot(pt 1000 -700))))(figure BODY(path(
+pointList(pt 1000 -700)(pt 1000 -700))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(origin(pt 1070 -690)))))(figure BODY(rectangle(pt 0 0)(pt 1000 -1100))
+)))))(cell(rename U2_2 "U2_2")(cellType GENERIC)(view(rename &1 "1")(viewType
+SCHEMATIC)(interface(designator "")(port(rename CLKA "clka")(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "0"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename BUS__ENTRA_91_6_46__46_0_93_ "bus_entra[6..0]")7)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "1"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename SALIDA_91_4_46__46_0_93_ "salida[4..0]")5)(direction OUTPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(string "2")
+)(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename SD "sd")(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "
+Pin shared")(string ""))(property(rename TYPE "Type")(string "Output"))(property
+(rename ORDER "Order")(string "3"))(property(rename LONG "Long")(string "True"))
+(property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename ALTA__IMPEDANCIA_91_2_46__46_0_93_ "
+alta_impedancia[2..0]")3)(direction OUTPUT)(designator "")(property(rename
+PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Type")(string "Out
+put"))(property(rename ORDER "Order")(string "4"))(property(rename LONG "Long")(
+string "True"))(property(rename CLOCK "Clock")(string "False"))(property(rename
+DOT "Dot")(string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin 
+Number Is Visible")(string "True")))(property(rename NAME "Name")(string ""))(
+property(rename VALUE "Value")(string ""))(property(rename
+IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(property(rename
+IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(property(rename
+IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1300 -1100)))(
+portImplementation(name CLKA(display PINNAME(justify CENTERLEFT)(origin(pt 70
+-100))))(connectLocation(figure PORT(dot(pt 0 -100))))(figure BODY(path(
+pointList(pt 0 -100)(pt 0 -100))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -90)))))(portImplementation(name
+BUS__ENTRA_91_6_46__46_0_93_(display PINNAME(justify CENTERRIGHT)(orientation
+R90)(origin(pt 400 -70))))(connectLocation(figure PORT(dot(pt 400 0))))(figure
+BODY(path(pointList(pt 400 0)(pt 400 0))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify UPPERLEFT)(orientation R90)(origin(pt 410 70)))))(
+portImplementation(name SALIDA_91_4_46__46_0_93_(display PINNAME(justify
+CENTERRIGHT)(orientation R90)(origin(pt 600 -70))))(connectLocation(figure PORT(
+dot(pt 600 0))))(figure BODY(path(pointList(pt 600 0)(pt 600 0))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(orientation R90)(
+origin(pt 610 70)))))(portImplementation(name SD(display PINNAME(justify
+CENTERRIGHT)(origin(pt 1230 -800))))(connectLocation(figure PORT(dot(pt 1300
+-800))))(figure BODY(path(pointList(pt 1300 -800)(pt 1300 -800))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(origin(pt 1370 -790)))))(
+portImplementation(name ALTA__IMPEDANCIA_91_2_46__46_0_93_(display PINNAME(
+justify CENTERRIGHT)(orientation R90)(origin(pt 900 -70))))(connectLocation(
+figure PORT(dot(pt 900 0))))(figure BODY(path(pointList(pt 900 0)(pt 900 0))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(orientation R90)(
+origin(pt 910 70)))))(figure BODY(rectangle(pt 0 0)(pt 1300 -1100)))))))(cell(
+rename U5 "U5")(cellType GENERIC)(view(rename &1 "1")(viewType SCHEMATIC)(
+interface(designator "")(port(rename OSC "osc")(direction INPUT)(designator "")(
+property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Ty
+pe")(string "Input"))(property(rename ORDER "Order")(string "0"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename QA "qa")(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "
+Pin shared")(string ""))(property(rename TYPE "Type")(string "Output"))(property
+(rename ORDER "Order")(string "1"))(property(rename LONG "Long")(string "True"))
+(property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(rename QB "qb")(direction OUTPUT)(designator "")(
+property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Ty
+pe")(string "Output"))(property(rename ORDER "Order")(string "2"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename QC "qc")(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "
+Pin shared")(string ""))(property(rename TYPE "Type")(string "Output"))(property
+(rename ORDER "Order")(string "3"))(property(rename LONG "Long")(string "True"))
+(property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(rename QD "qd")(direction OUTPUT)(designator "")(
+property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "Ty
+pe")(string "Output"))(property(rename ORDER "Order")(string "4"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+property(rename NAME "Name")(string ""))(property(rename VALUE "Value")(string "
+"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(
+property(rename IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1400 -900)))(
+portImplementation(name OSC(display PINNAME(justify CENTERLEFT)(origin(pt 70
+-100))))(connectLocation(figure PORT(dot(pt 0 -100))))(figure BODY(path(
+pointList(pt 0 -100)(pt 0 -100))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -90)))))(portImplementation(name QA(display
+PINNAME(justify CENTERRIGHT)(origin(pt 1330 -200))))(connectLocation(figure PORT
+(dot(pt 1400 -200))))(figure BODY(path(pointList(pt 1400 -200)(pt 1400 -200))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(origin(pt 1470 -190)))))(
+portImplementation(name QB(display PINNAME(justify CENTERRIGHT)(origin(pt 1330
+-500))))(connectLocation(figure PORT(dot(pt 1400 -500))))(figure BODY(path(
+pointList(pt 1400 -500)(pt 1400 -500))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(origin(pt 1470 -490)))))(portImplementation(name QC(display PINNAME(
+justify CENTERRIGHT)(origin(pt 1330 -600))))(connectLocation(figure PORT(dot(pt
+1400 -600))))(figure BODY(path(pointList(pt 1400 -600)(pt 1400 -600))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(origin(pt 1470 -590)))))(
+portImplementation(name QD(display PINNAME(justify CENTERRIGHT)(origin(pt 1330
+-800))))(connectLocation(figure PORT(dot(pt 1400 -800))))(figure BODY(path(
+pointList(pt 1400 -800)(pt 1400 -800))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(origin(pt 1470 -790)))))(figure BODY(rectangle(pt 0 0)(pt 1400 -900)))
+))))(cell(rename U4 "U4")(cellType GENERIC)(view(rename &1 "1")(viewType
+SCHEMATIC)(interface(designator "")(port(array(rename ENTRA_91_7_46__46_0_93_ "e
+ntra[7..0]")8)(direction INPUT)(designator "")(property(rename PIN_32_SHARED "Pi
+n shared")(string ""))(property(rename TYPE "Type")(string "Input"))(property(
+rename ORDER "Order")(string "0"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(array(rename SALE_91_7_46__46_0_93_ "sale[7..0]")
+8)(direction OUTPUT)(designator "")(property(rename PIN_32_SHARED "Pin shared")(
+string ""))(property(rename TYPE "Type")(string "Output"))(property(rename ORDER
+"Order")(string "1"))(property(rename LONG "Long")(string "True"))(property(
+rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(string "False"
+))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(
+string "True")))(port(array(rename ALTA__IMPEDANCIA_91_2_46__46_0_93_ "alta_impe
+dancia[2..0]")3)(direction INPUT)(designator "")(property(rename PIN_32_SHARED "
+Pin shared")(string ""))(property(rename TYPE "Type")(string "Input"))(property(
+rename ORDER "Order")(string "2"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(rename CLKD "clkd")(direction INPUT)(designator "
+")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE
+"Type")(string "Input"))(property(rename ORDER "Order")(string "3"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+property(rename NAME "Name")(string ""))(property(rename VALUE "Value")(string "
+"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(
+property(rename IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1200 -800)))(
+portImplementation(name ENTRA_91_7_46__46_0_93_(display PINNAME(justify
+CENTERRIGHT)(orientation R90)(origin(pt 600 -70))))(connectLocation(figure PORT(
+dot(pt 600 0))))(figure BODY(path(pointList(pt 600 0)(pt 600 0))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(orientation R90)(
+origin(pt 610 70)))))(portImplementation(name SALE_91_7_46__46_0_93_(display
+PINNAME(justify CENTERRIGHT)(orientation R90)(origin(pt 200 -70))))(
+connectLocation(figure PORT(dot(pt 200 0))))(figure BODY(path(pointList(pt 200 0
+)(pt 200 0))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(
+orientation R90)(origin(pt 210 70)))))(portImplementation(name
+ALTA__IMPEDANCIA_91_2_46__46_0_93_(display PINNAME(justify CENTERLEFT)(origin(pt
+70 -600))))(connectLocation(figure PORT(dot(pt 0 -600))))(figure BODY(path(
+pointList(pt 0 -600)(pt 0 -600))))(keywordDisplay DESIGNATOR(display PINNUMBER(
+justify LOWERRIGHT)(origin(pt -70 -590)))))(portImplementation(name CLKD(display
+PINNAME(justify CENTERLEFT)(orientation R90)(origin(pt 1100 -730))))(
+connectLocation(figure PORT(dot(pt 1100 -800))))(figure BODY(path(pointList(pt
+1100 -800)(pt 1100 -800))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify
+UPPERRIGHT)(orientation R90)(origin(pt 1110 -870)))))(figure BODY(rectangle(pt 0
+0)(pt 1200 -800)))))))(cell(rename U6_6 "U6_6")(cellType GENERIC)(view(rename &1
+"1")(viewType SCHEMATIC)(interface(designator "")(port(array(rename
+ENTRADA__A_91_7_46__46_0_93_ "entrada_a[7..0]")8)(direction INPUT)(designator ""
+)(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE "
+Type")(string "Input"))(property(rename ORDER "Order")(string "0"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename ENTRADA__B_91_7_46__46_0_93_ "entrada_b[7..0]")8)(direction INPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Input"))(property(rename ORDER "Order")(string "1"))
+(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+rename DD "dd")(direction INPUT)(designator "")(property(rename PIN_32_SHARED "P
+in shared")(string ""))(property(rename TYPE "Type")(string "Input"))(property(
+rename ORDER "Order")(string "2"))(property(rename LONG "Long")(string "True"))(
+property(rename CLOCK "Clock")(string "False"))(property(rename DOT "Dot")(
+string "False"))(property(rename PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is V
+isible")(string "True")))(port(rename CLKC "clkc")(direction INPUT)(designator "
+")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(rename TYPE
+"Type")(string "Input"))(property(rename ORDER "Order")(string "3"))(property(
+rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(string "False
+"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(port(
+array(rename SALIDA_91_7_46__46_0_93_ "salida[7..0]")8)(direction OUTPUT)(
+designator "")(property(rename PIN_32_SHARED "Pin shared")(string ""))(property(
+rename TYPE "Type")(string "Output"))(property(rename ORDER "Order")(string "4")
+)(property(rename LONG "Long")(string "True"))(property(rename CLOCK "Clock")(
+string "False"))(property(rename DOT "Dot")(string "False"))(property(rename
+PIN_32_NUMBER_32_IS_32_VISIBLE "Pin Number Is Visible")(string "True")))(
+property(rename NAME "Name")(string ""))(property(rename VALUE "Value")(string "
+"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string ""))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "<none>"))(
+property(rename IMPLEMENTATION "Implementation")(string ""))(property(rename
+PIN_32_NUMBERS_32_VISIBLE "Pin Numbers Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_VISIBLE "Pin Names Visible")(string "True"))(property(rename
+PIN_32_NAMES_32_ROTATE "Pin Names Rotate")(string "True"))(symbol(
+commentGraphics)(boundingBox(rectangle(pt 0 0)(pt 1500 -900)))(
+portImplementation(name ENTRADA__A_91_7_46__46_0_93_(display PINNAME(justify
+CENTERRIGHT)(orientation R90)(origin(pt 300 -70))))(connectLocation(figure PORT(
+dot(pt 300 0))))(figure BODY(path(pointList(pt 300 0)(pt 300 0))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(orientation R90)(
+origin(pt 310 70)))))(portImplementation(name ENTRADA__B_91_7_46__46_0_93_(
+display PINNAME(justify CENTERRIGHT)(orientation R90)(origin(pt 700 -70))))(
+connectLocation(figure PORT(dot(pt 700 0))))(figure BODY(path(pointList(pt 700 0
+)(pt 700 0))))(keywordDisplay DESIGNATOR(display PINNUMBER(justify UPPERLEFT)(
+orientation R90)(origin(pt 710 70)))))(portImplementation(name DD(display
+PINNAME(justify CENTERLEFT)(origin(pt 70 -400))))(connectLocation(figure PORT(
+dot(pt 0 -400))))(figure BODY(path(pointList(pt 0 -400)(pt 0 -400))))(
+keywordDisplay DESIGNATOR(display PINNUMBER(justify LOWERRIGHT)(origin(pt -70
+-390)))))(portImplementation(name CLKC(display PINNAME(justify CENTERLEFT)(
+origin(pt 70 -600))))(connectLocation(figure PORT(dot(pt 0 -600))))(figure BODY(
+path(pointList(pt 0 -600)(pt 0 -600))))(keywordDisplay DESIGNATOR(display
+PINNUMBER(justify LOWERRIGHT)(origin(pt -70 -590)))))(portImplementation(name
+SALIDA_91_7_46__46_0_93_(display PINNAME(justify CENTERLEFT)(orientation R90)(
+origin(pt 500 -830))))(connectLocation(figure PORT(dot(pt 500 -900))))(figure
+BODY(path(pointList(pt 500 -900)(pt 500 -900))))(keywordDisplay DESIGNATOR(
+display PINNUMBER(justify UPPERRIGHT)(orientation R90)(origin(pt 510 -970)))))(
+figure BODY(rectangle(pt 0 0)(pt 1500 -900)))))))(cell(rename SCHEMATIC1 "SCHEMA
+TIC1")(cellType GENERIC)(view(rename &1 "1")(viewType SCHEMATIC)(interface(port(
+array(rename DIRECCION_91_12_46__46_0_93_ "DIRECCION[12..0]")13)(direction INPUT
+))(port(rename OSC "OSC")(direction INPUT))(port(array(rename
+ENTRADA__B_91_7_46__46_0_93_ "ENTRADA_B[7..0]")8)(direction INPUT)))(contents(
+page(rename PAGE1 "PAGE1")(pageSize(rectangle(pt 0 0)(pt 15200 -9700)))(
+commentGraphics(property(rename VERTICAL_LABEL_WIDTH "Vertical_Label_Width")(
+string "10"))(property(rename HORIZONTAL_LABEL_WIDTH "Horizontal_Label_Width")(
+string "10"))(property(rename METRIC "Metric")(string "0"))(property(rename
+BORDER_DISPLAYED "Border_Displayed")(string "1"))(property(rename BORDER_PRINTED
+"Border_Printed")(string "1"))(property(rename GRIDREF_DISPLAYED "GridRef_Displa
+yed")(string "1"))(property(rename GRIDREF_PRINTED "GridRef_Printed")(string "1"
+))(property(rename TITLEBLOCK_DISPLAYED "TitleBlock_Displayed")(string "1"))(
+property(rename TITLEBLOCK_PRINTED "TitleBlock_Printed")(string "1"))(property(
+rename ANSIGRIDREFS "ANSIGridRefs")(string "1"))(property(rename NAME "Name")(
+string "PAGE1"))(property(rename PAGE_32_NUMBER "Page Number")(string "1"))(
+property(rename CREATE_32_TIME "Create Time")(string "Tuesday, November 12, 2013
+"))(property(rename MODIFY_32_TIME "Modify Time")(string "Monday, December 02, 2
+013"))(property(rename SIZE "Size")(string "B"))(property(rename
+X_45_COORDINATE_32_SIZE "X-Coordinate Size")(string "15200"))(property(rename
+Y_45_COORDINATE_32_SIZE "Y-Coordinate Size")(string "9700"))(property(rename
+OUTER_32_BORDER_32_MARGIN_32_X_45_COORDINATE_32_SIZE "Outer Border Margin X-Coor
+dinate Size")(string "0"))(property(rename
+OUTER_32_BORDER_32_MARGIN_32_Y_45_COORDINATE_32_SIZE "Outer Border Margin Y-Coor
+dinate Size")(string "0"))(property(rename OUTER_32_BORDER_32_LINE_32_STYLE "Out
+er Border Line Style")(string "Solid"))(property(rename
+OUTER_32_BORDER_32_LINE_32_WIDTH "Outer Border Line Width")(string "Thin"))(
+property(rename OUTER_32_BORDER_32_IS_32_VISIBLE "Outer Border Is Visible")(
+string "True"))(property(rename INNER_32_BORDER_32_MARGIN_32_X_45_COORDINATE "In
+ner Border Margin X-Coordinate")(string "0"))(property(rename
+INNER_32_BORDER_32_MARGIN_32_Y_45_COORDINATE "Inner Border Margin Y-Coordinate")
+(string "0"))(property(rename INNER_32_BORDER_32_LINE_32_STYLE "Inner Border Lin
+e Style")(string "Solid"))(property(rename INNER_32_BORDER_32_LINE_32_WIDTH "Inn
+er Border Line Width")(string "Thin"))(property(rename
+INNER_32_BORDER_32_IS_32_VISIBLE "Inner Border Is Visible")(string "False"))(
+property(rename COLOR "Color")(string "Default"))(property(rename LABEL_32_COLOR
+"Label Color")(string "Default"))(property(rename HORIZONTAL_32_LABEL_32_COUNT "
+Horizontal Label Count")(string "5"))(property(rename
+HORIZONTAL_32_LABELS_32_ARE_32_CHARACTER "Horizontal Labels are character")(
+string "False"))(property(rename HORIZONTAL_32_LABELS_32_ARE_32_VISIBLE "Horizon
+tal Labels are visible")(string "False"))(property(rename
+HORIZONTAL_32_LABELS_32_IN_32_ASCENDING_32_ORDER "Horizontal Labels in ascending
+ order")(string "False"))(property(rename
+LINE_32_STYLE_32_OF_32_HORIZONTAL_32_LABEL_32_SEPARATORS "Line Style of horizont
+al label separators")(string "Solid"))(property(rename
+LINE_32_WIDTH_32_OF_32_HORIZONTAL_32_LABEL_32_SEPARATORS "Line Width of horizont
+al label separators")(string "Thin"))(property(rename VERTICAL_32_LABEL_32_COUNT
+"Vertical Label Count")(string "4"))(property(rename
+VERTICAL_32_LABELS_32_ARE_32_CHARACTER "Vertical Labels are character")(string "
+True"))(property(rename VERTICAL_32_LABELS_32_ARE_32_VISIBLE "Vertical Labels ar
+e visible")(string "False"))(property(rename
+VERTICAL_32_LABEL_32_IS_32_ASCENDING "Vertical Label Is Ascending")(string "Fals
+e"))(property(rename LINE_32_STYLE_32_OF_32_VERTICAL_32_LABEL_32_SEPARATORS "Lin
+e style of vertical label separators")(string "Solid"))(property(rename
+LINEWIDTH_32_OF_32_VERTICAL_32_LABEL_32_SEPARATORS "LineWidth of vertical label 
+separators")(string "Thin"))(instance(rename TITLEBLOCK0 "TitleBlock0")(viewRef
+&1(cellRef TITLEBLOCK0(libraryRef CAPSYM)))(transform(origin(pt 11100 -8600)))(
+property(rename NAME "Name")(string "TitleBlock0"))(property(rename
+DESIGN_32_NAME "Design Name")(string "C:\DECODIFICADOR\DESIGN1.DSN"))(property(
+rename DESIGN_32_FILE_32_NAME "Design File Name")(string "C:\DECODIFICADOR\DESIG
+N1.DSN"))(property(rename DESIGN_32_CREATE_32_DATE "Design Create Date")(string
+"Tuesday, November 12, 2013"))(property(rename DESIGN_32_MODIFY_32_DATE "Design 
+Modify Date")(string "Monday, December 02, 2013"))(property(rename
+DESIGN_32_CREATE_32_TIME "Design Create Time")(string "19:34:56"))(property(
+rename DESIGN_32_MODIFY_32_TIME "Design Modify Time")(string "02:05:27"))(
+property(rename SCHEMATIC_32_NAME "Schematic Name")(string "SCHEMATIC1"))(
+property(rename SCHEMATIC_32_CREATE_32_DATE "Schematic Create Date")(string "Tue
+sday, November 12, 2013"))(property(rename SCHEMATIC_32_MODIFY_32_DATE "Schemati
+c Modify Date")(string "Monday, December 02, 2013"))(property(rename
+SCHEMATIC_32_CREATE_32_TIME "Schematic Create Time")(string "01:34:58"))(
+property(rename SCHEMATIC_32_MODIFY_32_TIME "Schematic Modify Time")(string "08:
+07:18"))(property(rename SCHEMATIC_32_PAGE_32_COUNT "Schematic Page Count")(
+string "0"))(property(rename SCHEMATIC_32_PAGE_32_NUMBER "Schematic Page Number"
+)(string "0"))(property(rename PAGE_32_SIZE "Page Size")(string(stringDisplay "B
+"(display TITLEBLOCK(justify UPPERLEFT)(origin(pt 11200 -9200))))))(property(
+rename PAGE_32_CREATE_32_DATE "Page Create Date")(string "Tuesday, November 12, 
+2013"))(property(rename PAGE_32_MODIFY_32_DATE "Page Modify Date")(string(
+stringDisplay "Monday, December 02, 2013"(display TITLEBLOCK(justify UPPERLEFT)(
+origin(pt 11620 -9400))))))(property(rename PAGE_32_CREATE_32_TIME "Page Create 
+Time")(string "19:34:57"))(property(rename PAGE_32_MODIFY_32_TIME "Page Modify T
+ime")(string "02:05:27"))(property(rename SOURCE_32_LIBRARY "Source Library")(
+string "C:\PROGRAM FILES\ORCAD\CAPTURE\LIBRARY\CAPSYM.OLB"))(property(rename
+SOURCE_32_SYMBOL "Source Symbol")(string "TitleBlock0"))(property(rename REVCODE
+"RevCode")(string(stringDisplay ""(display TITLEBLOCK(justify UPPERLEFT)(origin(
+pt 14500 -9200))))))(property(rename CAGE_32_CODE "Cage Code")(string ""))(
+property(rename ORGNAME "OrgName")(string ""))(property(rename ORGADDR1 "OrgAddr
+1")(string ""))(property(rename ORGADDR2 "OrgAddr2")(string ""))(property(rename
+ORGADDR3 "OrgAddr3")(string ""))(property(rename ORGADDR4 "OrgAddr4")(string "")
+)(property(rename DOC "Doc")(string(stringDisplay ""(display TITLEBLOCK(justify
+UPPERLEFT)(origin(pt 11500 -9200))))))(property(rename TITLE "Title")(string(
+stringDisplay ""(display TITLEBLOCK(justify UPPERLEFT)(origin(pt 11500 -8900))))
+))(property(rename PAGE_32_NUMBER "Page Number")(string(stringDisplay "1"(
+display TITLEBLOCK(justify UPPERLEFT)(origin(pt 13600 -9400))))))(property(
+rename PAGE_32_COUNT "Page Count")(string(stringDisplay "1"(display TITLEBLOCK(
+justify UPPERLEFT)(origin(pt 14200 -9400))))))(property(rename TITLEBLOCK "title
+block")(string "TRUE"))))(instance(rename U1_1 "U1_1")(viewRef &1(cellRef U1_1))
+(transform(origin(pt 6500 -1200)))(property(rename NAME "Name")(string "U1_1"))(
+designator(stringDisplay "U1_1"(display PROPERTY(justify UPPERLEFT)(origin(pt
+6500 -1060)))))(property(rename VALUE "Value")(string(stringDisplay "INS_REG"(
+display PARTVALUE(justify UPPERLEFT)(origin(pt 6500 -2400))))))(property(rename
+PRIMITIVE "Primitive")(string "DEFAULT"))(property(rename IMPLEMENTATION_32_TYPE
+"Implementation Type")(string "VHDL"))(property(rename IMPLEMENTATION "Implement
+ation")(string "INS_REG"))(property(rename IMPLEMENTATION_32_PATH "Implementatio
+n Path")(string "E:\DECODIFICADOR\INS_REG.vhd"))(property(rename COLOR "Color")(
+string "Default"))(property(rename DRAWN_32_INSTANCE "Drawn Instance")(string "T
+RUE")))(instance(rename U7_7 "U7_7")(viewRef &1(cellRef U7_7))(transform(origin(
+pt 10100 -800)))(property(rename NAME "Name")(string "U7_7"))(designator(
+stringDisplay "U7_7"(display PROPERTY(justify UPPERLEFT)(origin(pt 10100 -660)))
+))(property(rename VALUE "Value")(string(stringDisplay "ADDMUX"(display
+PARTVALUE(justify UPPERLEFT)(origin(pt 10100 -1840))))))(property(rename
+PRIMITIVE "Primitive")(string "DEFAULT"))(property(rename IMPLEMENTATION_32_TYPE
+"Implementation Type")(string "VHDL"))(property(rename IMPLEMENTATION "Implement
+ation")(string "ADDMUX"))(property(rename IMPLEMENTATION_32_PATH "Implementation
+ Path")(string "E:\DECODIFICADOR\ADDMUX.vhd"))(property(rename COLOR "Color")(
+string "Default"))(property(rename DRAWN_32_INSTANCE "Drawn Instance")(string "T
+RUE")))(instance(rename U3_3 "U3_3")(viewRef &1(cellRef U3_3))(transform(origin(
+pt 9500 -4100)))(property(rename NAME "Name")(string "U3_3"))(designator(
+stringDisplay "U3_3"(display PROPERTY(justify UPPERLEFT)(origin(pt 9500 -3960)))
+))(property(rename VALUE "Value")(string(stringDisplay "ALU"(display PARTVALUE(
+justify UPPERLEFT)(origin(pt 9500 -4940))))))(property(rename PRIMITIVE "Primiti
+ve")(string "DEFAULT"))(property(rename IMPLEMENTATION_32_TYPE "Implementation T
+ype")(string "VHDL"))(property(rename IMPLEMENTATION "Implementation")(string "A
+LU"))(property(rename IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\D
+ECODIFICADOR\ALU.vhd"))(property(rename COLOR "Color")(string "Default"))(
+property(rename DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(instance(
+rename U8 "U8")(viewRef &1(cellRef U8))(transform(origin(pt 4800 -1200)))(
+property(rename NAME "Name")(string "U8"))(designator(stringDisplay "U8"(display
+PROPERTY(justify UPPERLEFT)(origin(pt 4800 -1060)))))(property(rename VALUE "Val
+ue")(string(stringDisplay "EPROM"(display PARTVALUE(justify UPPERLEFT)(origin(pt
+4800 -2340))))))(property(rename PRIMITIVE "Primitive")(string "DEFAULT"))(
+property(rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "VHDL"))(
+property(rename IMPLEMENTATION "Implementation")(string "EPROM"))(property(
+rename IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\DECODIFICADOR\EP
+ROM.vhd"))(property(rename COLOR "Color")(string "Default"))(property(rename
+DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(instance(rename U2_2 "U2_2"
+)(viewRef &1(cellRef U2_2))(transform(origin(pt 6400 -5500)))(property(rename
+NAME "Name")(string "U2_2"))(designator(stringDisplay "U2_2"(display PROPERTY(
+justify UPPERLEFT)(origin(pt 6400 -5360)))))(property(rename VALUE "Value")(
+string(stringDisplay "DECO"(display PARTVALUE(justify UPPERLEFT)(origin(pt 6400
+-6640))))))(property(rename PRIMITIVE "Primitive")(string "DEFAULT"))(property(
+rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "VHDL"))(property(
+rename IMPLEMENTATION "Implementation")(string "DECO"))(property(rename
+IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\DECODIFICADOR\DECO.vhd"
+))(property(rename COLOR "Color")(string "Default"))(property(rename
+DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(instance(rename U5 "U5")(
+viewRef &1(cellRef U5))(transform(origin(pt 2600 -6300)))(property(rename NAME "
+Name")(string "U5"))(designator(stringDisplay "U5"(display PROPERTY(justify
+UPPERLEFT)(origin(pt 2600 -6160)))))(property(rename VALUE "Value")(string(
+stringDisplay "CLK"(display PARTVALUE(justify UPPERLEFT)(origin(pt 2600 -7240)))
+)))(property(rename PRIMITIVE "Primitive")(string "DEFAULT"))(property(rename
+IMPLEMENTATION_32_TYPE "Implementation Type")(string "VHDL"))(property(rename
+IMPLEMENTATION "Implementation")(string "CLK"))(property(rename
+IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\DECODIFICADOR\CLK.vhd")
+)(property(rename COLOR "Color")(string "Default"))(property(rename
+DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(instance(rename U4 "U4")(
+viewRef &1(cellRef U4))(transform(origin(pt 9500 -5700)))(property(rename NAME "
+Name")(string "U4"))(designator(stringDisplay "U4"(display PROPERTY(justify
+UPPERLEFT)(origin(pt 9500 -5560)))))(property(rename VALUE "Value")(string(
+stringDisplay "WREG"(display PARTVALUE(justify UPPERLEFT)(origin(pt 9500 -6540))
+))))(property(rename PRIMITIVE "Primitive")(string "DEFAULT"))(property(rename
+IMPLEMENTATION_32_TYPE "Implementation Type")(string "VHDL"))(property(rename
+IMPLEMENTATION "Implementation")(string "WREG"))(property(rename
+IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\DECODIFICADOR\WREG.vhd"
+))(property(rename COLOR "Color")(string "Default"))(property(rename
+DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(instance(rename U6_6 "U6_6"
+)(viewRef &1(cellRef U6_6))(transform(origin(pt 9700 -2600)))(property(rename
+NAME "Name")(string "U6_6"))(designator(stringDisplay "U6_6"(display PROPERTY(
+justify UPPERLEFT)(origin(pt 9700 -2460)))))(property(rename VALUE "Value")(
+string(stringDisplay "MUX"(display PARTVALUE(justify UPPERLEFT)(origin(pt 9700
+-3540))))))(property(rename PRIMITIVE "Primitive")(string "DEFAULT"))(property(
+rename IMPLEMENTATION_32_TYPE "Implementation Type")(string "VHDL"))(property(
+rename IMPLEMENTATION "Implementation")(string "MUX"))(property(rename
+IMPLEMENTATION_32_PATH "Implementation Path")(string "E:\DECODIFICADOR\MUX.vhd")
+)(property(rename COLOR "Color")(string "Default"))(property(rename
+DRAWN_32_INSTANCE "Drawn Instance")(string "TRUE")))(portImplementation(name
+DIRECCION_91_12_46__46_0_93_(display PORT(justify UPPERLEFT)(origin(pt 2900
+-1500))))(connectLocation(figure PORT(dot(pt 4000 -1600))))(instance(rename
+XGRINST1 "XGRINST1")(viewRef &1(cellRef PORTRIGHT_45_R(libraryRef CAPSYM)))(
+transform(origin(pt 3700 -1500)))))(portImplementation(name OSC(display PORT(
+justify UPPERLEFT)(origin(pt 1700 -6300))))(connectLocation(figure PORT(dot(pt
+2400 -6400))))(instance(rename XGRINST2 "XGRINST2")(viewRef &1(cellRef
+PORTRIGHT_45_R(libraryRef CAPSYM)))(transform(origin(pt 2100 -6300)))))(
+portImplementation(name ENTRADA__B_91_7_46__46_0_93_(display PORT(justify
+UPPERLEFT)(origin(pt 10100 -2100))))(connectLocation(figure PORT(dot(pt 10400
+-2500))))(instance(rename XGRINST3 "XGRINST3")(viewRef &1(cellRef PORTRIGHT_45_R
+(libraryRef CAPSYM)))(transform(orientation R270)(origin(pt 10500 -2200)))))(net
+(array(rename DIRECCION_91_12_46__46_0_93_ "DIRECCION[12..0]")13)(joined(portRef
+DIRECCION_91_12_46__46_0_93_))(figure WIRE(path(pointList(pt 4000 -1600)(pt 4800
+-1600)))))(net(array(rename ENTRADA__B_91_7_46__46_0_93_ "ENTRADA_B[7..0]")8)(
+joined(portRef ENTRADA__B_91_7_46__46_0_93_))(figure WIRE(path(pointList(pt
+10400 -2500)(pt 10400 -2600)))))(net(array(rename
+IR__ADDMUX__DIRECT_91_6_46__46_0_93_(stringDisplay "IR_ADDMUX_DIRECT[6..0]"(
+display ALIAS(origin(pt 8200 -1300)))))7)(joined)(figure WIRE(path(pointList(pt
+7800 -1300)(pt 10000 -1300)))(path(pointList(pt 10000 -1300)(pt 10000 -900)))(
+path(pointList(pt 10000 -900)(pt 10100 -900)))))(net(array(rename
+CONSTATE__MUX_91_7_46__46_0_93_(stringDisplay "CONSTATE_MUX[7..0]"(display ALIAS
+(origin(pt 7500 -2500)))))8)(joined)(figure WIRE(path(pointList(pt 7500 -2600)(
+pt 7500 -2300)))(path(pointList(pt 7500 -2600)(pt 10000 -2600)))))(net(array(
+rename EPROM__INSREG_91_13_46__46_0_93_(stringDisplay "EPROM_INSREG[13..0]"(
+display ALIAS(orientation R90)(origin(pt 6100 -1900)))))14)(joined)(figure WIRE(
+path(pointList(pt 5800 -1900)(pt 6500 -1900)))))(net(array(rename
+BIT__OPERA_91_2_46__46_0_93_(stringDisplay "BIT_OPERA[2..0]"(display ALIAS(
+orientation R90)(origin(pt 8300 -3900)))))3)(joined)(figure WIRE(path(pointList(
+pt 9500 -4300)(pt 8300 -4300)))(path(pointList(pt 8300 -1500)(pt 7800 -1500)))(
+path(pointList(pt 8300 -4300)(pt 8300 -1500)))))(net(array(rename
+ALU__STATUS_91_2_46__46_0_93_(stringDisplay "ALU_STATUS[2..0]"(display ALIAS(
+orientation R90)(origin(pt 11900 -3140)))))3)(joined)(figure WIRE(path(pointList
+(pt 10500 -3900)(pt 11900 -3900)))(path(pointList(pt 11900 -3900)(pt 11900 -1700
+)))(path(pointList(pt 11900 -1700)(pt 11700 -1700)))(path(pointList(pt 10500
+-3900)(pt 10500 -4100)))))(net(array(rename ENTRADA__ALU_91_7_46__46_0_93_(
+stringDisplay "ENTRADA_ALU[7..0]"(display ALIAS(origin(pt 10200 -3670)))))8)(
+joined)(figure WIRE(path(pointList(pt 10200 -3500)(pt 10200 -3900)))(path(
+pointList(pt 10400 -4100)(pt 10400 -3900)))(path(pointList(pt 10400 -3900)(pt
+10200 -3900)))))(net(array(rename BUS__DATOS_91_7_46__46_0_93_(stringDisplay "BU
+S_DATOS[7..0]"(display ALIAS(origin(pt 12000 -1600)))))8)(joined)(figure WIRE(
+path(pointList(pt 10600 -4900)(pt 10600 -5300)))(path(pointList(pt 10100 -5300)(
+pt 10100 -5700)))(path(pointList(pt 12900 -5300)(pt 12900 -1600)))(path(
+pointList(pt 12900 -5300)(pt 10600 -5300)))(path(pointList(pt 12900 -1600)(pt
+11700 -1600)))(path(pointList(pt 10600 -5300)(pt 10100 -5300))))(instance(rename
+TIE1 "TIE1")(viewRef XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef RIPPER_LIBRARY)))(
+transform(origin(pt 10600 -5300)))))(net(array(rename
+WREG__ALU_91_7_46__46_0_93_(stringDisplay "WREG_ALU[7..0]"(display ALIAS(origin(
+pt 9200 -5400)))))8)(joined)(figure WIRE(path(pointList(pt 9700 -5400)(pt 9100
+-5400)))(path(pointList(pt 9700 -5700)(pt 9700 -5400)))(path(pointList(pt 9100
+-4700)(pt 9100 -5400)))(path(pointList(pt 9500 -4700)(pt 9100 -4700)))))(net(
+array(rename DECO__ALU_91_4_46__46_0_93_(stringDisplay "DECO_ALU[4..0]"(display
+ALIAS(origin(pt 8380 -4500)))))5)(joined)(figure WIRE(path(pointList(pt 9500
+-4500)(pt 7000 -4500)))(path(pointList(pt 7000 -5500)(pt 7000 -4500)))))(net(
+array(rename ALTA__IMPEDANCIA_91_2_46__46_0_93_(stringDisplay "ALTA_IMPEDANCIA[2
+..0]"(display ALIAS(origin(pt 8400 -6300)))))3)(joined)(figure WIRE(path(
+pointList(pt 10100 -1700)(pt 8400 -1700)))(path(pointList(pt 8400 -6300)(pt 9500
+-6300)))(path(pointList(pt 8400 -1700)(pt 8400 -4400)))(path(pointList(pt 8100
+-5200)(pt 8100 -6300)))(path(pointList(pt 9500 -4400)(pt 8400 -4400)))(path(
+pointList(pt 8100 -6300)(pt 8400 -6300)))(path(pointList(pt 7300 -5200)(pt 8100
+-5200)))(path(pointList(pt 8400 -4400)(pt 8400 -6300)))(path(pointList(pt 7300
+-5200)(pt 7300 -5500))))(instance(rename TIE2 "TIE2")(viewRef XTIE0A2Y2(cellRef
+XTIE0A2Y2(libraryRef RIPPER_LIBRARY)))(transform(origin(pt 8400 -4400))))(
+instance(rename TIE3 "TIE3")(viewRef XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef
+RIPPER_LIBRARY)))(transform(origin(pt 8400 -6300)))))(net(array(rename
+INS__DECO_91_6_46__46_0_93_(stringDisplay "INS_DECO[6..0]"(display ALIAS(
+orientation R90)(origin(pt 6800 -3840)))))7)(joined)(figure WIRE(path(pointList(
+pt 7000 -2700)(pt 7000 -2300)))(path(pointList(pt 6800 -2700)(pt 6800 -5500)))(
+path(pointList(pt 6800 -2700)(pt 7000 -2700)))))(net(rename DIRECCION12 "DIRECCI
+ON12")(joined)(figure WIRE))(net(rename DIRECCION11 "DIRECCION11")(joined)(
+figure WIRE))(net(rename DIRECCION10 "DIRECCION10")(joined)(figure WIRE))(net(
+rename DIRECCION9 "DIRECCION9")(joined)(figure WIRE))(net(rename DIRECCION8 "DIR
+ECCION8")(joined)(figure WIRE))(net(rename DIRECCION7 "DIRECCION7")(joined)(
+figure WIRE))(net(rename DIRECCION6 "DIRECCION6")(joined)(figure WIRE))(net(
+rename DIRECCION5 "DIRECCION5")(joined)(figure WIRE))(net(rename DIRECCION4 "DIR
+ECCION4")(joined)(figure WIRE))(net(rename DIRECCION3 "DIRECCION3")(joined)(
+figure WIRE))(net(rename DIRECCION2 "DIRECCION2")(joined)(figure WIRE))(net(
+rename DIRECCION1 "DIRECCION1")(joined)(figure WIRE))(net(rename DIRECCION0 "DIR
+ECCION0")(joined)(figure WIRE))(net(rename ENTRADA_B7 "ENTRADA_B7")(joined)(
+figure WIRE))(net(rename ENTRADA_B6 "ENTRADA_B6")(joined)(figure WIRE))(net(
+rename ENTRADA_B5 "ENTRADA_B5")(joined)(figure WIRE))(net(rename ENTRADA_B4 "ENT
+RADA_B4")(joined)(figure WIRE))(net(rename ENTRADA_B3 "ENTRADA_B3")(joined)(
+figure WIRE))(net(rename ENTRADA_B2 "ENTRADA_B2")(joined)(figure WIRE))(net(
+rename ENTRADA_B1 "ENTRADA_B1")(joined)(figure WIRE))(net(rename ENTRADA_B0 "ENT
+RADA_B0")(joined)(figure WIRE))(net(rename CONSTATE_MUX7 "CONSTATE_MUX7")(joined
+)(figure WIRE))(net(rename CONSTATE_MUX6 "CONSTATE_MUX6")(joined)(figure WIRE))(
+net(rename CONSTATE_MUX5 "CONSTATE_MUX5")(joined)(figure WIRE))(net(rename
+CONSTATE_MUX4 "CONSTATE_MUX4")(joined)(figure WIRE))(net(rename CONSTATE_MUX3 "C
+ONSTATE_MUX3")(joined)(figure WIRE))(net(rename CONSTATE_MUX2 "CONSTATE_MUX2")(
+joined)(figure WIRE))(net(rename CONSTATE_MUX1 "CONSTATE_MUX1")(joined)(figure
+WIRE))(net(rename CONSTATE_MUX0 "CONSTATE_MUX0")(joined)(figure WIRE))(net(
+rename IR_ADDMUX_DIRECT6 "IR_ADDMUX_DIRECT6")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT5 "IR_ADDMUX_DIRECT5")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT4 "IR_ADDMUX_DIRECT4")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT3 "IR_ADDMUX_DIRECT3")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT2 "IR_ADDMUX_DIRECT2")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT1 "IR_ADDMUX_DIRECT1")(joined)(figure WIRE))(net(rename
+IR_ADDMUX_DIRECT0 "IR_ADDMUX_DIRECT0")(joined)(figure WIRE))(net(rename
+EPROM_INSREG13 "EPROM_INSREG13")(joined)(figure WIRE))(net(rename EPROM_INSREG12
+"EPROM_INSREG12")(joined)(figure WIRE))(net(rename EPROM_INSREG11 "EPROM_INSREG1
+1")(joined)(figure WIRE))(net(rename EPROM_INSREG10 "EPROM_INSREG10")(joined)(
+figure WIRE))(net(rename EPROM_INSREG9 "EPROM_INSREG9")(joined)(figure WIRE))(
+net(rename EPROM_INSREG8 "EPROM_INSREG8")(joined)(figure WIRE))(net(rename
+EPROM_INSREG7 "EPROM_INSREG7")(joined)(figure WIRE))(net(rename EPROM_INSREG6 "E
+PROM_INSREG6")(joined)(figure WIRE))(net(rename EPROM_INSREG5 "EPROM_INSREG5")(
+joined)(figure WIRE))(net(rename EPROM_INSREG4 "EPROM_INSREG4")(joined)(figure
+WIRE))(net(rename EPROM_INSREG3 "EPROM_INSREG3")(joined)(figure WIRE))(net(
+rename EPROM_INSREG2 "EPROM_INSREG2")(joined)(figure WIRE))(net(rename
+EPROM_INSREG1 "EPROM_INSREG1")(joined)(figure WIRE))(net(rename EPROM_INSREG0 "E
+PROM_INSREG0")(joined)(figure WIRE))(net(rename BIT_OPERA2 "BIT_OPERA2")(joined)
+(figure WIRE))(net(rename BIT_OPERA1 "BIT_OPERA1")(joined)(figure WIRE))(net(
+rename BIT_OPERA0 "BIT_OPERA0")(joined)(figure WIRE))(net(rename ALU_STATUS2 "AL
+U_STATUS2")(joined)(figure WIRE))(net(rename ALU_STATUS1 "ALU_STATUS1")(joined)(
+figure WIRE))(net(rename ALU_STATUS0 "ALU_STATUS0")(joined)(figure WIRE))(net(
+rename ENTRADA_ALU7 "ENTRADA_ALU7")(joined)(figure WIRE))(net(rename
+ENTRADA_ALU6 "ENTRADA_ALU6")(joined)(figure WIRE))(net(rename ENTRADA_ALU5 "ENTR
+ADA_ALU5")(joined)(figure WIRE))(net(rename ENTRADA_ALU4 "ENTRADA_ALU4")(joined)
+(figure WIRE))(net(rename ENTRADA_ALU3 "ENTRADA_ALU3")(joined)(figure WIRE))(net
+(rename ENTRADA_ALU2 "ENTRADA_ALU2")(joined)(figure WIRE))(net(rename
+ENTRADA_ALU1 "ENTRADA_ALU1")(joined)(figure WIRE))(net(rename ENTRADA_ALU0 "ENTR
+ADA_ALU0")(joined)(figure WIRE))(net(rename BUS_DATOS7 "BUS_DATOS7")(joined)(
+figure WIRE))(net(rename BUS_DATOS6 "BUS_DATOS6")(joined)(figure WIRE))(net(
+rename BUS_DATOS5 "BUS_DATOS5")(joined)(figure WIRE))(net(rename BUS_DATOS4 "BUS
+_DATOS4")(joined)(figure WIRE))(net(rename BUS_DATOS3 "BUS_DATOS3")(joined)(
+figure WIRE))(net(rename BUS_DATOS2 "BUS_DATOS2")(joined)(figure WIRE))(net(
+rename BUS_DATOS1 "BUS_DATOS1")(joined)(figure WIRE))(net(rename BUS_DATOS0 "BUS
+_DATOS0")(joined)(figure WIRE))(net(rename WREG_ALU7 "WREG_ALU7")(joined)(figure
+WIRE))(net(rename WREG_ALU6 "WREG_ALU6")(joined)(figure WIRE))(net(rename
+WREG_ALU5 "WREG_ALU5")(joined)(figure WIRE))(net(rename WREG_ALU4 "WREG_ALU4")(
+joined)(figure WIRE))(net(rename WREG_ALU3 "WREG_ALU3")(joined)(figure WIRE))(
+net(rename WREG_ALU2 "WREG_ALU2")(joined)(figure WIRE))(net(rename WREG_ALU1 "WR
+EG_ALU1")(joined)(figure WIRE))(net(rename WREG_ALU0 "WREG_ALU0")(joined)(figure
+WIRE))(net(rename N10878 "N10878")(joined)(figure WIRE(path(pointList(pt 8700
+-1100)(pt 8700 -7000)))(path(pointList(pt 4600 -1300)(pt 4800 -1300)))(path(
+pointList(pt 4600 -7100)(pt 4000 -7100)))(path(pointList(pt 10100 -1100)(pt 8700
+-1100)))(path(pointList(pt 8700 -7000)(pt 4600 -7000)))(path(pointList(pt 4600
+-1300)(pt 4600 -7000)))(path(pointList(pt 4600 -7000)(pt 4600 -7100))))(instance
+(rename TIE4 "TIE4")(viewRef XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef
+RIPPER_LIBRARY)))(transform(origin(pt 4600 -7000)))))(net(rename N17968 "N17968"
+)(joined)(figure WIRE(path(pointList(pt 10100 -1000)(pt 8500 -1000)))(path(
+pointList(pt 10600 -6700)(pt 8500 -6700)))(path(pointList(pt 8500 -6800)(pt 8500
+-6700)))(path(pointList(pt 10600 -6500)(pt 10600 -6700)))(path(pointList(pt 8500
+-6700)(pt 8500 -1000)))(path(pointList(pt 8500 -6800)(pt 4000 -6800))))(instance
+(rename TIE5 "TIE5")(viewRef XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef
+RIPPER_LIBRARY)))(transform(origin(pt 8500 -6700)))))(net(rename N02384 "N02384"
+)(joined)(figure WIRE(path(pointList(pt 10800 -6800)(pt 8900 -6800)))(path(
+pointList(pt 8900 -6900)(pt 4000 -6900)))(path(pointList(pt 8900 -3200)(pt 9700
+-3200)))(path(pointList(pt 10800 -4900)(pt 10800 -6800)))(path(pointList(pt 8900
+-3200)(pt 8900 -6800)))(path(pointList(pt 8900 -6800)(pt 8900 -6900))))(instance
+(rename TIE6 "TIE6")(viewRef XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef
+RIPPER_LIBRARY)))(transform(origin(pt 8900 -6800)))))(net(rename
+ALTA_IMPEDANCIA2 "ALTA_IMPEDANCIA2")(joined)(figure WIRE))(net(rename
+ALTA_IMPEDANCIA1 "ALTA_IMPEDANCIA1")(joined)(figure WIRE))(net(rename
+ALTA_IMPEDANCIA0 "ALTA_IMPEDANCIA0")(joined)(figure WIRE))(net(rename DECO_ALU4
+"DECO_ALU4")(joined)(figure WIRE))(net(rename DECO_ALU3 "DECO_ALU3")(joined)(
+figure WIRE))(net(rename DECO_ALU2 "DECO_ALU2")(joined)(figure WIRE))(net(rename
+DECO_ALU1 "DECO_ALU1")(joined)(figure WIRE))(net(rename DECO_ALU0 "DECO_ALU0")(
+joined)(figure WIRE))(net(rename INS_DECO6 "INS_DECO6")(joined)(figure WIRE))(
+net(rename INS_DECO5 "INS_DECO5")(joined)(figure WIRE))(net(rename INS_DECO4 "IN
+S_DECO4")(joined)(figure WIRE))(net(rename INS_DECO3 "INS_DECO3")(joined)(figure
+WIRE))(net(rename INS_DECO2 "INS_DECO2")(joined)(figure WIRE))(net(rename
+INS_DECO1 "INS_DECO1")(joined)(figure WIRE))(net(rename INS_DECO0 "INS_DECO0")(
+joined)(figure WIRE))(net(rename N20956 "N20956")(joined)(figure WIRE(path(
+pointList(pt 10100 -1600)(pt 9100 -1600)))(path(pointList(pt 9100 -1600)(pt 9100
+-3000)))(path(pointList(pt 9700 -3000)(pt 9100 -3000)))(path(pointList(pt 8000
+-3000)(pt 8000 -6300)))(path(pointList(pt 8000 -6300)(pt 7700 -6300)))(path(
+pointList(pt 9100 -3000)(pt 8000 -3000))))(instance(rename TIE7 "TIE7")(viewRef
+XTIE0A2Y2(cellRef XTIE0A2Y2(libraryRef RIPPER_LIBRARY)))(transform(origin(pt
+9100 -3000)))))(net(rename N05060 "N05060")(joined)(figure WIRE(path(pointList(
+pt 5500 -5600)(pt 5500 -6500)))(path(pointList(pt 6400 -5600)(pt 5500 -5600)))(
+path(pointList(pt 5500 -6500)(pt 4000 -6500)))))(net(rename OSC "OSC")(joined(
+portRef OSC))(figure WIRE(path(pointList(pt 2400 -6400)(pt 2600 -6400))))))))))(
+design(rename SCHEMATIC1 "SCHEMATIC1")(cellRef SCHEMATIC1(libraryRef DESIGN1))))

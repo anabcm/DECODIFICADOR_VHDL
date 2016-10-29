@@ -1,0 +1,147 @@
+(ExpressProject "nucleo"
+  (ProjectVersion "19981106")
+  (ProjectType "FPGA")
+  (Vendor "Simple")
+  (Family "GAL/PAL/PROM Family")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.olb"
+        (Type "Schematic Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.scl"
+        (Type "VHDL Synthesis Target Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\fpgacore.scl"
+        (Type "VHDL Synthesis Target Library"))
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.sml"
+        (Type "VHDL Synthesis Macro Library")))
+    (NoModify)
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (File "C:\DECODIFICADOR\design1.dsn"
+      (Type "Schematic Design"))
+    (File ".\deco.vhd"
+      (Type "VHDL Source"))
+    (File ".\alu.vhd"
+      (Type "VHDL Source"))
+    (File ".\addmux.vhd"
+      (Type "VHDL Source"))
+    (File ".\mux.vhd"
+      (Type "VHDL Netlist"))
+    (File ".\wreg.vhd"
+      (Type "VHDL Source"))
+    (File ".\eprom.vhd"
+      (Type "VHDL Source"))
+    (File ".\ins_reg.vhd"
+      (Type "VHDL Source"))
+    (File ".\clk.vhd"
+      (Type "VHDL Source")))
+  (Folder "Outputs")
+  (Folder "Simulation Resources"
+    (Folder "In Design"
+      (File "C:\Program Files\OrCAD\CAPTURE\Library\spld\spld.vhd"
+        (Type "VHDL SimModel"))
+      (File "C:\DECODIFICADOR\ests1"
+        (Type "Simulate Stimulus"))
+      (File ".\deco.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\alu.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\addmux.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\mux.vhd"
+        (Type "VHDL Netlist")
+        (FromUpdateSimFolder "yes"))
+      (File ".\wreg.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\indesign\design1.vhd"
+        (Type "VHDL Netlist")
+        (FromUpdateSimFolder "yes"))
+      (File ".\eprom.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\ins_reg.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (File ".\clk.vhd"
+        (Type "VHDL Source")
+        (FromUpdateSimFolder "yes"))
+      (Group "schematic1" "salida_eprom"
+        (Signal "schematic1" "eprom_insreg[13]")
+        (Signal "schematic1" "eprom_insreg[12]")
+        (Signal "schematic1" "eprom_insreg[11]")
+        (Signal "schematic1" "eprom_insreg[10]")
+        (Signal "schematic1" "eprom_insreg[9]")
+        (Signal "schematic1" "eprom_insreg[8]")
+        (Signal "schematic1" "eprom_insreg[7]"))
+      (Group "schematic1" "salida_e"
+        (Signal "schematic1" "eprom_insreg[7]")
+        (Signal "schematic1" "eprom_insreg[8]")
+        (Signal "schematic1" "eprom_insreg[9]")
+        (Signal "schematic1" "eprom_insreg[10]")
+        (Signal "schematic1" "eprom_insreg[11]")
+        (Signal "schematic1" "eprom_insreg[12]")
+        (Signal "schematic1" "eprom_insreg[13]"))
+      (Options
+        (AssertBeep 1)
+        (AssertLog 1)
+        (AssertMsg 1)
+        (AssertStop 1)
+        (BreakBeep 1)
+        (BreakLog 1)
+        (BreakMessage 1)
+        (BreakStop 1)
+        (DisableLoopChecking 0)
+        (FileOpen "C:\PRUEBA")
+        (InstructionStep 1)
+        (InteractiveUpdate 1)
+        (ITCEnabled 1)
+        (ListDisplayTop 1)
+        (LogTimeStamp 1)
+        (MiscOptLastPage 0)
+        (PlaAddToProject 1)
+        (PlaClockToOutput 0)
+        (PlaCombinational 0)
+        (PlaResolution -1)
+        (PlaSetupTime 0)
+        (PlaSpeedGrade 15)
+        (PlaTriStateEnable 0)
+        (Radix 0)
+        (RunResolution 2)
+        (RunTime 10000)
+        (SDFTiming 1)
+        (TimeCursorSnap 0)
+        (TimingBeep 0)
+        (TimingLog 1)
+        (TimingMsg 0)
+        (TimingStop 0)
+        (VHDLStandard 1)
+        (WaveDisplayTop 1)))
+    (Folder "Timed")
+    (DefaultFolder "In Design")
+    (LastModified "Mon Dec 02 20:17:04 2013"))
+  (DisplayVendor "Simple PLD")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Simulation Resources")
+      (Path "Simulation Resources" "In Design")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -4 -30 0 344 0 399"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 0 605 -4 -30 329 1375 -5 625")
+        (Scroll "638 72")
+        (Zoom "116")
+        (Occurrence "/"))
+      (Path "C:\DECODIFICADOR\DESIGN1.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

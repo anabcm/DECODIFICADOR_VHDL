@@ -1,0 +1,34 @@
+
+cap2edi V2.2 - OrCAD Capture Version 9.00 Built With EDI V2.48
+Copyright 1997-1998 - Engineering DataXpress, Inc., All rights Reserved.
+
+Started Mon Dec 02 20:07:53 2013
+
+Translating schematic SCHEMATIC1
+  to library DESIGN1 cell SCHEMATIC1 view 1 page PAGE1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U1_1
+    to library DESIGN1 cell U1_1 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U7_7
+    to library DESIGN1 cell U7_7 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U3_3
+    to library DESIGN1 cell U3_3 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U8
+    to library DESIGN1 cell U8 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U2_2
+    to library DESIGN1 cell U2_2 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U5
+    to library DESIGN1 cell U5 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U4
+    to library DESIGN1 cell U4 view 1
+  Translating C:/DECODIFICADOR/DESIGN1.DSN symbol U6_6
+    to library DESIGN1 cell U6_6 view 1
+  Translating C:/PROGRAM FILES/ORCAD/CAPTURE/LIBRARY/CAPSYM.OLB symbol PORTRIGHT-R
+    to library CAPSYM cell PORTRIGHT-R view 1
+  Translating C:/PROGRAM FILES/ORCAD/CAPTURE/LIBRARY/CAPSYM.OLB symbol TitleBlock0
+    to library CAPSYM cell TitleBlock0 view 1
+Checking Semantics...
+Writing the output file E:\DECODIFICADOR\DESIGN1.EDF...
+
+Completed Mon Dec 02 20:07:53 2013
+Translated 10 symbols and 1 schematic page, 0 errors, 0 warnings
+
